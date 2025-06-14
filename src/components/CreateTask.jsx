@@ -24,10 +24,10 @@ const CreateTask = ({ addTask, sending }) => {
   };
 
   return (
-    <div className=" flex mb-5">
+    <div className=" flex mb-5 gap-3 ">
       <input
         type="text"
-        className=" flex-grow disabled:opacity-100 border-2 border-slate-500  disabled:border-slate-300 rounded-l-lg p-2"
+        className="h-14 flex-grow disabled:opacity-100 border-2 border-purple-300  disabled:border-slate-300 bg-gray-50 rounded-lg focus:outline-none focus:ring-0 p-2"
         value={job}
         onChange={handleOnChange}
         placeholder="Write your new task"
@@ -36,7 +36,7 @@ const CreateTask = ({ addTask, sending }) => {
       />
       <button
         onClick={handleAddTaskBtn}
-        className=" bg-slate-300 border-2 disabled:opacity-50 border-slate-300  rounded-r-lg py-2 px-4"
+        className="  border-2 disabled:opacity-50 border-blue-400 rounded-lg py-2 bg-gray-50 px-4"
         disabled={sending}
       >
            {sending ? (

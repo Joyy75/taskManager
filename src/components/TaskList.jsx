@@ -8,6 +8,7 @@ const TaskList = ({ tasks, removeTask, doneTask }) => {
         Task List (Total {tasks.length}, Done{" "}
         {tasks.filter((el) => el.isDone).length})
       </h3>
+
       {tasks.map((el) => (
         <Task
           doneTask={doneTask}

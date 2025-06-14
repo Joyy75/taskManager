@@ -2,7 +2,7 @@ import React from "react";
 
 const SkeletonLoader = () => {
   return (
-    <div className=" animate-pulse">
+    <div className=" animate-pulse ">
       <div className=" flex justify-between items-center border-2 border-slate-300 p-3 rounded-lg mb-3 last:mb-0">
         <div className="flex justify-between items-center w-full">
           <div className=" flex justify-between w-60 gap-3">

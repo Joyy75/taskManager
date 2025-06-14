@@ -70,6 +70,7 @@ const App = () => {
   };
 
   useEffect(() => {
+    
     fetchTasks();
   }, []);
 

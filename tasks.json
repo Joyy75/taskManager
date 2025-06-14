@@ -1,3 +1,24 @@
 {
-  "tasks": []
+  "tasks": [
+    {
+      "task": "hii",
+      "isDone": false,
+      "id": 1
+    },
+    {
+      "task": "This is Testing ",
+      "isDone": false,
+      "id": 2
+    },
+    {
+      "task": "New Feature is skeleton loader ",
+      "isDone": false,
+      "id": 3
+    },
+    {
+      "task": "With react is it Ok?",
+      "isDone": false,
+      "id": 4
+    }
+  ]
 }
